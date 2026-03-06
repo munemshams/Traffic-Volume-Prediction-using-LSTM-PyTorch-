@@ -156,21 +156,16 @@ Lower MSE values indicate better prediction performance.
 
 ---
 
-# Project Structure
+# Files Included
 
-```
-traffic-volume-prediction-lstm
-│
-├── model.py
-├── train.py
-├── evaluate.py
-│
-├── data/
-│   ├── train_scaled.csv
-│   └── test_scaled.csv
-│
-└── README.md
-```
+| File | Description |
+|-----|-------------|
+| model.py | Defines the LSTM neural network used for traffic prediction |
+| train.py | Trains the LSTM model using the training dataset |
+| evaluate.py | Evaluates the trained model and calculates Mean Squared Error |
+| train_scaled.csv | Preprocessed training dataset used for model training |
+| test_scaled.csv | Preprocessed testing dataset used for model evaluation |
+| README.md | Project documentation |
 
 ---
 
