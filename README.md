@@ -169,13 +169,19 @@ Lower MSE values indicate better prediction performance.
 
 ---
 
-# Dependencies
+# Python Libraries Used
 
-Install the required Python libraries before running the project:
+The project was implemented using the following Python libraries:
 
-```
-pip install torch pandas numpy
-```
+| Library | Purpose |
+|--------|--------|
+| PyTorch (torch) | Core deep learning framework used to build and train the LSTM neural network |
+| torch.nn | Defines neural network layers including LSTM, activation functions, and fully connected layers |
+| torch.optim | Implements optimization algorithms such as the Adam optimizer used during training |
+| pandas | Loading and manipulating the traffic dataset |
+| numpy | Numerical operations and array processing |
+| scikit-learn (optional in preprocessing) | Dataset scaling and preprocessing utilities for time-series modeling |
+| matplotlib (optional for visualization) | Plotting training curves and prediction results |
 
 ---
 
